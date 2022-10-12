@@ -1,0 +1,21 @@
+{
+    "name": "schnoog/storehouse",
+    "description": "A storages / inventory management system with a normalized database as backend to ensure extensibility",
+    "type": "project",
+    "license": "GNU Lesser General Public License v3.0",
+    "autoload": {
+        "psr-4": {
+            "Schnoog\\Storehouse\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "schnoog",
+            "email": "schnoog@schnoog.eu"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "sergeytsalkov/meekrodb": "^2.4"
+    }
+}

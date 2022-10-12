@@ -1,0 +1,19 @@
+{
+    "name": "schnoog/storehouse",
+    "description": "A storages / inventory management system with a normalized database as backend to ensure extensibility",
+    "type": "project",
+	"license": "GNU General Public License v3.0",
+    "authors": [
+        {
+            "name": "schnoog",
+            "email": "schnoog@schnoog.eu"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "sergeytsalkov/meekrodb": "^2.4",
+        "smarty/smarty": "^4.2",
+        "smarty-gettext/smarty-gettext": "^1.6",
+        "phpmailer/phpmailer": "^6.6"
+    }
+}
